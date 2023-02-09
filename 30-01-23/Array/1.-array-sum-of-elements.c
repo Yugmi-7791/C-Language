@@ -16,6 +16,6 @@ main ()
     {
       sum+=arr[i];
     }
-    printf("Sum of element is %d",sum);
+    printf("Sum of element is %ld",sum);
   return 0;
 }
