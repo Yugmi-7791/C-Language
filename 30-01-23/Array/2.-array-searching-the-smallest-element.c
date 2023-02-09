@@ -5,7 +5,7 @@ main ()
   int n,i;
   int arr[10];
   printf ("Enter the number of elements in the array:");
-  scanf ("%d", &n);
+  scanf ("%lf", &n);
 
   for (i = 0; i < n; i++)
     {
