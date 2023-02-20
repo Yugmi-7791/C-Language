@@ -1,8 +1,11 @@
+//Code for finding and printing non-reducible form of a string...
+
 #include <stdio.h>
 #include <string.h>
 #include <math.h>
 
 char str[10];
+//Removing character
 void
 removechar (int i)
 {
@@ -20,6 +23,7 @@ main ()
   int i = 0, len = 0;
   printf ("Enter a string :");
   scanf ("%s", str);
+//Reduce string 
   for (; str[len] != '\0'; len++)
     for (; i < len;)
       {
@@ -33,10 +37,11 @@ main ()
 	    i++;
 	  }
       }
+//if output string is empty it will show output as empty string
   if (str[0] == '\0')
     printf ("Output is empty string...");
   else
-    printf ("%s\n", str);
+    printf ("%s\n", str);//else prints the reduced string
 
 
   return 0;
