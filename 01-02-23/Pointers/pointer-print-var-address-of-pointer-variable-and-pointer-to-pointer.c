@@ -1,11 +1,13 @@
+//Program to print var address of pointer variable and pointer to pointer.
+
 #include <stdio.h>
 
 int
 main ()
 {
-  int a;
-  int *p;
-  int **pt;
+  int a;//integer variable
+  int *p;//pointer to variable
+  int **pt;//pointer to pointer
   a = 32;
   p = &a;
   pt = &p;
