@@ -1,4 +1,5 @@
-//Program to perform arithmetic operations using pointers.
+//Program to perform arithmetic operations on elements of an array using pointer.
+//Program to print address of array element and data at address of element.
 
 #include <stdio.h>
 
