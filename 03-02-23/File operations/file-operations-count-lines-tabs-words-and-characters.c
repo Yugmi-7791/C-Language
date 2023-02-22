@@ -1,3 +1,5 @@
+//Program to count lines,tabs,words and character.
+
 #include <stdio.h>
 void
 main ()
@@ -9,14 +11,14 @@ main ()
   ch = getc (p);
   while (ch != EOF)
     {
-      if (ch == '\n')
+      if (ch == '\n')//count lines
 	ln++;
-      if (ch == '\t')
+      if (ch == '\t')//count tabs
 	t++;
-      if (ch == ' ')
+      if (ch == ' ')//count words
 	w++;
       else
-	c++;
+	c++;//count characters
       ch = getc (p);
 
     }
