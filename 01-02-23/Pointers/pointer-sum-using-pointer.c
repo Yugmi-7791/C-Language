@@ -1,7 +1,8 @@
+//Program to print sum of numbers using pointer.
+
 #include<stdio.h>
 
-int Sum (int, int);
-
+int Sum (int, int);//Defining function
 
 int
 main ()
@@ -13,6 +14,7 @@ main ()
   printf ("\nEnter 2nd number : ");
   scanf ("%d", &b);
 
+  //printing sum using pointer
   printf ("\nThe sum is : %d", (ptr) (a, b));
   return 0;
 }
